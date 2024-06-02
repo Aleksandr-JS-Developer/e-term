@@ -1,11 +1,12 @@
 {
   "name": "e-term",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "just-add-water javascript terminal",
   "main": "dist/terminal.js",
   "scripts": {
     "dev": "webpack --watch",
     "build": "webpack",
+    "publish": "npm run build && npm publish",
     "test_core": "jest --testPathPattern=src/tests/core"
   },
   "exports": {
@@ -19,14 +20,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aleksandr-JS-Developer/e-term.git"
+    "url": "git+https://github.com/oleksandr-dukhovnyy/e-term.git"
   },
-  "author": "alex-js-dev",
+  "author": "Oleksandr Dukhovnyy <script@vip-person.net> (https://github.com/oleksandr-dukhovnyy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Aleksandr-JS-Developer/e-term/issues"
+    "url": "https://github.com/oleksandr-dukhovnyy/e-term/issues"
   },
-  "homepage": "https://github.com/Aleksandr-JS-Developer/e-term#readme",
+  "homepage": "https://github.com/oleksandr-dukhovnyy/e-term#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.8",
     "css-loader": "^6.7.1",
